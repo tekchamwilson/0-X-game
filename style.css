@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background-color: aquamarine;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #08e05b;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: #575846 0px 5px 15px;
+}
+
+.cell:hover {
+  background: #f1c6c6;
+  border-radius: 20px;
+  box-shadow: #e71717 0px 5px 15px;
+}
+
+#status {
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #e5f138;
+  border: none;
+  border-radius: 5px;
+  box-shadow: #575846 0px 5px 15px;
+}
